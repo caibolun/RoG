@@ -11,4 +11,4 @@ If you use these codes in your research, please cite:
 		title={Edge/Structure Preserving Smoothing via Relativity-of-Gaussian},
 		booktitle={IEEE International Conference on Image Processing (ICIP)},
 		year={2017}
-}
+		}
