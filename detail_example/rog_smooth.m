@@ -6,7 +6,7 @@ function S = rog_smooth(I, lambda, sigma1, sigma2, K, dec, sep)
 %   IEEE International Conference on Image Processing (ICIP), 2017 
 %
 
-    if (~exist('lambdas','var'))
+    if (~exist('lambda','var'))
         lambda=0.01;
     end   
     if (~exist('sigma1','var'))
