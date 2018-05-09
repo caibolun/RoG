@@ -8,9 +8,10 @@
 %   Edge/Structure Preserving Smoothing via Relativity-of-Gaussian
 %   Bolun Cai, Xiaofen Xing, Xiangmin Xu.
 %   IEEE International Conference on Image Processing (ICIP), 2017 
-
+clear;
+close all;
+addpath('../');
 %% Load Image
-clear all;
 filename = 'flower.png';
 I = im2double(imread(filename));
 figure;imshow(I);title('Input');
@@ -27,3 +28,4 @@ figure;imshow(fine);title('Fine-scale boost');
 
 combine=(fine+coarse)./2;
 figure;imshow(combine);title('Combine');
+imwrite(combine,'result.png');

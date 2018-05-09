@@ -12,3 +12,30 @@ If you use these codes in your research, please cite:
 		booktitle={IEEE International Conference on Image Processing (ICIP)},
 		year={2017}
 		}
+
+### Usage
+Download the code and test images
+```
+git clone https://github.com/caibolun/RoG.git
+```
+
+ - Edge/Structure Preserving Smoothing
+Smooth the image with edge/structure Preserving by simply typing in Matlab.
+```
+ run('demo.m')
+```
+ - Detail Enhancement ([Link](https://caibolun.github.io/RoG/detail_enhance.html))
+As a nonlinear edge-preserving image smoothing (K = 1), our method can be used for detail enhancement via base and detail layer decomposition.
+```
+run('detail_example\demo.m')
+```
+- Structure Extraction ([Link](https://caibolun.github.io/RoG/structure.html))
+As a nonlinear structure-preserving image smoothing (K > 1), we apply our method for structure-texture separation. 
+```
+run('struct_example\demo.m')
+```
+- HDR Tone Mapping ([Link](https://caibolun.github.io/RoG/tone_mapping.html))
+One of the challenges in image processing is the rendering of an HDR scene on a conventional LDR display. RoG smoothing is easily harnessed to perform tone mapping of HDR images. 
+```
+run('hdr_example\demo.m')
+```

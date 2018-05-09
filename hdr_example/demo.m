@@ -12,10 +12,10 @@
 %   Edge/Structure Preserving Smoothing via Relativity-of-Gaussian
 %   Bolun Cai, Xiaofen Xing, Xiangmin Xu.
 %   IEEE International Conference on Image Processing (ICIP), 2017
-
-%% Load Image
-close all;
 clear;
+close all;
+addpath('../');
+%% Load Image
 filename = 'desk.hdr';
 
 hdr = im2double(hdrread(filename));
@@ -25,9 +25,9 @@ rgb=bsxfun(@rdivide,hdr,I);
 
 %% RoG Smooth
 u0 = I;
-u1 = rog_smooth(I, 0.001, 0.5, 1.0, 1);
-u2 = rog_smooth(I, 0.001, 1.0, 1.5, 1);
-u3 = rog_smooth(I, 0.001, 1.5, 2.0, 1);
+u1 = rog_smooth(I, 0.01, 0.5, 1.0, 1);
+u2 = rog_smooth(I, 0.01, 1.0, 1.5, 1);
+u3 = rog_smooth(I, 0.01, 1.5, 2.0, 1);
 
 %% Compute detail layers
 base = log(u3);
@@ -52,3 +52,4 @@ Inew = exposure*Inew/mx;
 
 rgb = bsxfun(@times,Inew,rgb.^sat);
 figure;imshow(rgb);title('HDR');
+imwrite(rgb,'result.png');
