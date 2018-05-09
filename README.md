@@ -25,8 +25,8 @@ git clone https://github.com/caibolun/RoG.git
 ```
  run('demo.m')
 ```
-![Input](https://raw.githubusercontent.com/caibolun/RoG/master/input.png =100x100)
-![RoG](https://raw.githubusercontent.com/caibolun/RoG/master/rog.png =100x100)
+![Input](https://raw.githubusercontent.com/caibolun/RoG/master/input.png)
+![RoG](https://raw.githubusercontent.com/caibolun/RoG/master/rog.png)
  - Detail Enhancement ([Link](https://caibolun.github.io/RoG/detail_enhance.html))
 
  As a nonlinear edge-preserving image smoothing (K = 1), our method can be used for detail enhancement via base and detail layer decomposition.
