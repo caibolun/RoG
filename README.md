@@ -19,14 +19,14 @@ Download the code and test images
 git clone https://github.com/caibolun/RoG.git
 ```
 
- - Edge/Structure Preserving Smoothing
+#### Edge/Structure Preserving Smoothing
 
  Smooth the image with edge/structure Preserving by simply typing in Matlab.
 ```
  run('demo.m')
 ```
 <img width="300" src="https://raw.githubusercontent.com/caibolun/RoG/master/input.png"/> &nbsp;&nbsp; <img width="300" src="https://raw.githubusercontent.com/caibolun/RoG/master/rog.png"/>
- - Detail Enhancement ([Link](https://caibolun.github.io/RoG/detail_enhance.html))
+#### Detail Enhancement ([Link](https://caibolun.github.io/RoG/detail_enhance.html))
 
  As a nonlinear edge-preserving image smoothing (K = 1), our method can be used for detail enhancement via base and detail layer decomposition.
 ```
@@ -34,7 +34,7 @@ run('detail_example\demo.m')
 ```
 <img width="400" src="https://raw.githubusercontent.com/caibolun/RoG/master/detail_example/flower.png"/> &nbsp;&nbsp; <img width="400" src="https://raw.githubusercontent.com/caibolun/RoG/master/detail_example/result.png"/>
 
-- Structure Extraction ([Link](https://caibolun.github.io/RoG/structure.html))
+#### Structure Extraction ([Link](https://caibolun.github.io/RoG/structure.html))
 
 As a nonlinear structure-preserving image smoothing (K > 1), we apply our method for structure-texture separation. 
 ```
@@ -42,7 +42,7 @@ run('struct_example\demo.m')
 ```
 <img width="400" src="https://raw.githubusercontent.com/caibolun/RoG/master/struct_example/fish.png"/> &nbsp;&nbsp; <img width="400" src="https://raw.githubusercontent.com/caibolun/RoG/master/struct_example/result.png"/>
 
-- HDR Tone Mapping ([Link](https://caibolun.github.io/RoG/tone_mapping.html))
+#### HDR Tone Mapping ([Link](https://caibolun.github.io/RoG/tone_mapping.html))
 
 One of the challenges in image processing is the rendering of an HDR scene on a conventional LDR display. RoG smoothing is easily harnessed to perform tone mapping of HDR images. 
 ```
