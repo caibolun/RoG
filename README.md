@@ -25,6 +25,8 @@ git clone https://github.com/caibolun/RoG.git
 ```
  run('demo.m')
 ```
+<img width="150" height="150" src="https://raw.githubusercontent.com/caibolun/RoG/master/input.png"/>
+<img width="150" height="150" src="https://raw.githubusercontent.com/caibolun/RoG/master/input.png"/>
 ![Input](https://raw.githubusercontent.com/caibolun/RoG/master/input.png)
 ![RoG](https://raw.githubusercontent.com/caibolun/RoG/master/rog.png)
  - Detail Enhancement ([Link](https://caibolun.github.io/RoG/detail_enhance.html))
